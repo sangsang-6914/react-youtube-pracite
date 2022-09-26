@@ -1,0 +1,55 @@
+.header {
+  width: 1000px;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.logoWrapper {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 35px;
+  height: 28px;
+  margin-left: 10px;
+}
+
+.logoTitle {
+  margin-top: 2px;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.searchWrapper {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: 10px;
+}
+
+.searchBox {
+  width: 95%;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.iconWrapper {
+  width: 5%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
