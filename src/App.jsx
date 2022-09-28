@@ -11,6 +11,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Main />} />
+          <Route path="/:keyword" element={<Main />} />
           <Route path="/detail/:id" element={<Detail />} />
         </Routes>
       </Router>

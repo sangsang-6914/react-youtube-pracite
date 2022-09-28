@@ -12,3 +12,8 @@ export const getPopularVideos = () => {
     `${BASE_URL}/videos?part=snippet&maxResults=25&chart=mostPopular&key=${API_KEY}`
   ).then((res) => res.json());
 };
+
+export const getVideo = (id) => {
+  return fetch(`${BASE_URL}/videos?part=snippet&id=${id}&key=${API_KEY}`)
+    .then(res => res.json());
+}

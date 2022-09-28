@@ -7,7 +7,7 @@
 }
 
 .main {
-  width: 1000px;
+  width: 1200px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5px;
@@ -22,8 +22,6 @@
 
 .contentImage {
   width: 40%;
-  border: 1px solid green;
-  background-color: green;
   transition: all 0.1s linear;
 }
 

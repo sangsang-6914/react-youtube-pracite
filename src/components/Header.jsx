@@ -1,10 +1,17 @@
+import { useNavigate } from 'react-router-dom';
 import styles from '../css/header.module.css';
 
 function Header() {
+  const navigate = useNavigate()
+
+  const onLogoClick = () => {
+    navigate('/')
+  }
+
   return (
     <>
       <nav className={styles.header}>
-        <div className={styles.logoWrapper}>
+        <div className={styles.logoWrapper} onClick={onLogoClick}>
           <img
             className={styles.logo}
             src={`${process.env.PUBLIC_URL}/images/logo.png`}
