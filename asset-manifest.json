@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sangsang-6914/react-youtube-pracite/static/css/main.cd8a5a7d.css",
+    "main.js": "/sangsang-6914/react-youtube-pracite/static/js/main.e514a18e.js",
+    "index.html": "/sangsang-6914/react-youtube-pracite/index.html",
+    "main.cd8a5a7d.css.map": "/sangsang-6914/react-youtube-pracite/static/css/main.cd8a5a7d.css.map",
+    "main.e514a18e.js.map": "/sangsang-6914/react-youtube-pracite/static/js/main.e514a18e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd8a5a7d.css",
+    "static/js/main.e514a18e.js"
+  ]
+}
